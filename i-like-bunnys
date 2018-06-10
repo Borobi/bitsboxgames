@@ -1,0 +1,5 @@
+function drag() {
+  ink = stamp('bunny2',x,y,1000)
+  ink.tap = explode
+}
+fill('stars')
