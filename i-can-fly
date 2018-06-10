@@ -1,0 +1,9 @@
+fill( 'stars')
+size = 150
+speed = 500
+c = stamp('hamster2',size)
+
+function drag() {
+  c.move(x,y,speed)
+  c.aim(x,y)
+}
